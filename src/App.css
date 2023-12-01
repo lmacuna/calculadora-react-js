@@ -1,0 +1,90 @@
+.calculadora {
+  width: 22em;
+  height: 72vh;
+  margin-top: 30px !important;
+  margin: auto;
+  background: rgb(5, 5, 5);
+  border: 3px solid grey;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding-top: 10px;
+
+}
+
+.pantalla {
+  width: 90%;
+  margin: auto;
+  height: 80px;
+  border-radius: 10px;
+  background: white;
+  margin-top: 30px !important;
+  margin-bottom: 80px !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.boton {
+  width: 60px;
+  height: 30px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  background: rgb(255, 255, 255);
+  margin: 4px;
+  color: black;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(.98);
+    background: rgb(238, 238, 238);
+  }
+}
+
+.boton-on {
+  background: orangered;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover{
+    background: rgb(255, 97, 40);
+  }
+}
+
+/* .boton-on {
+  background: red;
+  color: white;
+  padding: 3px 7px;
+  border: none;
+  border-radius: 4px;
+} */
+
+.box-boton {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.box-boton-onoff{
+  padding: 0px 41px 0px 41px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
