@@ -3,8 +3,8 @@
   height: 72vh;
   margin-top: 30px !important;
   margin: auto;
-  background: rgb(5, 5, 5);
-  border: 3px solid grey;
+  background: rgb(0, 0, 0);
+  /* border: 3px solid grey; */
   display: flex;
   justify-content: start;
   align-items: center;
@@ -39,7 +39,7 @@
   align-items: center;
   font-weight: bold;
   font-size: 18px;
-  background: rgb(255, 255, 255);
+  background: rgb(70, 150, 255);
   margin: 4px;
   color: black;
   border: none;
@@ -59,7 +59,8 @@
   border-radius: 4px;
   cursor: pointer;
   &:hover{
-    background: rgb(255, 97, 40);
+    background: rgb(192, 192, 192);
+    color: rgb(5, 5, 5);
   }
 }
 

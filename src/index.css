@@ -9,8 +9,11 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: black;
+}
+h1{
+  color: white;
 }
 body{
-  background: darkblue;
+  background: rgb(0, 0, 59);
 }
