@@ -115,26 +115,26 @@ function App() {
           <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={1} />
           <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={2} />
           <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={3} />
-          <Boton cambioOperador={(id) => cambioPorOperador(id)} boton="boton" oper="+" />
+          <Boton cambioOperador={(id) => cambioPorOperador(id)} botonOper="boton-oper" oper="+" />
         </div>
         <div className='box-boton'>
-          <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={4} />
+          <Boton clickBoton={(id) => clickBoton(id)} boton="boton"  num={4} />
           <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={5} />
           <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={6} />
-          <Boton cambioOperador={(id) => cambioPorOperador(id)} boton="boton" oper="-" />
+          <Boton cambioOperador={(id) => cambioPorOperador(id)} botonOper="boton-oper" oper="-" />
         </div>
         <div className='box-boton'>
           <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={7} />
           <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={8} />
           <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={9} />
-          <Boton cambioOperador={(id) => cambioPorOperador(id)} boton="boton" oper="*" />
+          <Boton cambioOperador={(id) => cambioPorOperador(id)} botonOper="boton-oper" oper="*" />
         </div>
         <div className='box-boton'>
 
           <Boton clickBoton={() => borrar()} boton="boton" oper="C" />
           <Boton clickBoton={(id) => clickBoton(id)} boton="boton" num={0} />
           <Boton clickBoton={() => calcular()} boton="boton" oper="=" />
-          <Boton cambioOperador={(id) => cambioPorOperador(id)} boton="boton" oper="/" />
+          <Boton cambioOperador={(id) => cambioPorOperador(id)} botonOper="boton-oper" oper="/" />
         </div>
       </div>
     </>

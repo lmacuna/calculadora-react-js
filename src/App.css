@@ -1,7 +1,7 @@
 .calculadora {
   width: 22em;
-  height: 72vh;
-  margin-top: 30px !important;
+  height: 86vh;
+  margin-top: 10px !important;
   margin: auto;
   background: rgb(0, 0, 0);
   /* border: 3px solid grey; */
@@ -21,7 +21,7 @@
   border-radius: 10px;
   background: white;
   margin-top: 30px !important;
-  margin-bottom: 80px !important;
+  margin-bottom: 20px !important;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -31,16 +31,36 @@
 }
 
 .boton {
-  width: 60px;
-  height: 30px;
-  border-radius: 4px;
+  width: 50px;
+  height: 55px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   font-size: 18px;
-  background: rgb(70, 150, 255);
-  margin: 4px;
+  background:orange;
+  margin: 10px;
+  color: black;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(.98);
+    background: rgb(238, 238, 238);
+  }
+}
+.boton-oper {
+  width: 50px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  background:white !important;
+  margin: 10px;
   color: black;
   border: none;
   cursor: pointer;
@@ -73,16 +93,16 @@
 } */
 
 .box-boton {
-  width: 100%;
+  width: 90%;
   height: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
 }
 .box-boton-onoff{
-  padding: 0px 41px 0px 41px;
-  margin-bottom: 20px;
+  padding: 0px 20px 0px 20px;
+   /*margin-bottom: 20px; */
   width: 100%;
   height: auto;
   display: flex;

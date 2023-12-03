@@ -31,7 +31,7 @@ const Styles=makeStyles({
         alignItems: 'center',
         paddingRight: '10px',
         fontWeight: 'bold',
-        fontSize: '18px'
+        fontSize: '26px'
     }
 })
 
